@@ -1,0 +1,20 @@
+# local terraform dir
+**/.terraform/*
+.history/
+OLD_MAINTF/
+
+# terraform state file
+*.tfstate
+*.tfstate.*
+
+# tf variable files
+*.tfvars
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# ignore crashlog
+crash.log
+
+terraform.tfvars.azurerm_linux_vm
